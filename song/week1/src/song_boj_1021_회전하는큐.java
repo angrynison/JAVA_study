@@ -21,7 +21,7 @@ public class song_boj_1021_회전하는큐 {
             arr[i] = sc.nextInt();
         }
 
-        ArrayDeque<Integer> deque = new ArrayDeque<>();  // ArrayDeque으로 덱 생성
+        Deque<Integer> deque = new ArrayDeque<>();  // ArrayDeque으로 덱 생성
         for (int i = 1; i <= n; i++) {
             deque.offer(i);
         }
