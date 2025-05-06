@@ -15,7 +15,7 @@ public class song_boj_2164_카드2 {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();  // 카드의 개수
 
-        ArrayDeque<Integer> queue = new ArrayDeque<>();  // ArrayDeque으로 큐 생성
+        Queue<Integer> queue = new ArrayDeque<>();  // ArrayDeque으로 큐 생성
         for (int i = 1; i <= n; i++) {
             queue.offer(i);
         }
