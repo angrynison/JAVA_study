@@ -20,7 +20,7 @@ public class song_boj_1874_스택수열 {
             arr[i] = sc.nextInt();
         }
 
-        ArrayDeque<Integer> stack = new ArrayDeque<>();  // ArrayDeque으로 스택 생성
+        Deque<Integer> stack = new ArrayDeque<>();  // ArrayDeque으로 스택 생성
         StringBuilder sb = new StringBuilder();  // 결과 저장용
         int num = 1;
 
