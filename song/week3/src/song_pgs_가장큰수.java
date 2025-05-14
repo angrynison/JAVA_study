@@ -9,7 +9,7 @@
 import java.util.*;
 
 public class song_pgs_가장큰수 {
-    public static String solution(int[] numbers) {
+    private static String solution(int[] numbers) {
         // 숫자 배열을 문자열 배열로 변환
         String[] strNums = new String[numbers.length];
         for (int i = 0; i < numbers.length; i++) {
