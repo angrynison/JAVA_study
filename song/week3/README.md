@@ -1,32 +1,25 @@
-## 📘 동적 계획법(DP)
+## 📘 재귀, 정렬
 
 **🗓️ 기간**: 2025.05.07. ~ 2025.05.15.
 
 ---
 
-### 선정 문제
+### 문제 목록
 
-| 플랫폼 | 문제 번호 | 문제 제목(링크)                                                                  | 난이도   |
-|-----|-------|----------------------------------------------------------------------------|-------|
-| BOJ | 1463  | [1로 만들기](https://www.acmicpc.net/problem/1463)                             | 실버 3  |
-| PGS |       | [정수 삼각형](https://school.programmers.co.kr/learn/courses/30/lessons/43105)  | Lv. 3 |
-| BOJ | 9095  | [1, 2, 3 더하기](https://www.acmicpc.net/problem/9095)                        | 실버 3  |
-| BOJ | 11053 | [RGB 거리](https://www.acmicpc.net/problem/11053)                            | 실버 2  |
-| BOJ | 12865 | [평범한 배낭](https://www.acmicpc.net/problem/12865)                            | 골드 5  |
-
----
-
-### 추천 문제
-
-| 순번  | 플랫폼 | 문제 번호 | 문제 제목(링크)                                                                 | 난이도   | 주요 유형                               |
-|-----|-----|-------|---------------------------------------------------------------------------|-------|-------------------------------------|
-| 1️⃣ | BOJ | 1463  | [1로 만들기](https://www.acmicpc.net/problem/1463)                            | 실버 3  | 기본 점화식 구성, Bottom-Up                |
-| 2️⃣ | PGS |       | [정수 삼각형](https://school.programmers.co.kr/learn/courses/30/lessons/43105) | Lv. 3 | 2차원 DP, Top-Down                    |
-| 3️⃣ | BOJ | 9095  | [1, 2, 3 더하기](https://www.acmicpc.net/problem/9095)                       | 실버 3  | 경우의 수 DP                            |
-| 4️⃣ | BOJ | 2579  | [계단 오르기](https://www.acmicpc.net/problem/2579)                            | 실버 3  | 연속 제한 조건 DP                         |
-| 5️⃣ | PGS |       | [N으로 표현](https://school.programmers.co.kr/learn/courses/30/lessons/42895) | Lv. 3 | 집합 DP, 연산 조합                        |
-| 6️⃣ | BOJ | 11053 | [가장 긴 증가하는 부분 수열](https://www.acmicpc.net/problem/11053)                  | 실버 2  | LIS(Longest Increasing Subsequence) |
-| 7️⃣ | BOJ | 2156  | [포도주 시식](https://www.acmicpc.net/problem/2156)                            | 실버 1  | 연속 선택 제한 DP                         |
-| 8️⃣ | PGS |       | [도둑질](https://school.programmers.co.kr/learn/courses/30/lessons/42897)    | Lv. 4 | 원형 배열 DP                            |
-| 9️⃣ | BOJ | 12865 | [평범한 배낭](https://www.acmicpc.net/problem/12865)                           | 골드 5  | 0-1 Knapsack                        |
-| 🔟  | PGS |       | [등굣길](https://school.programmers.co.kr/learn/courses/30/lessons/42898)    | Lv. 3 | 격자형 경로 탐색 DP                        |
+| 추천 | 플랫폼    | 문제 번호 | 문제 제목(링크)                                                                         | 난이도    | 키워드      |
+|----|--------|-------|-----------------------------------------------------------------------------------|--------|----------|
+| ✅  | BOJ    | 10870 | [피보나치 수 5](https://www.acmicpc.net/problem/10870)                                 | 브론즈 II | 재귀       |
+| ✅  | BOJ    | 11729 | [하노이 탑 이동 순서](https://www.acmicpc.net/problem/11729)                              | 실버 I   | 재귀, 분할정복 |
+|    | 프로그래머스 | -     | [재귀함수](https://school.programmers.co.kr/learn/courses/30/lessons/120845)          | 레벨 1   | 재귀, 문자열  |
+| ✅  | BOJ    | 2447  | [별 찍기 - 10](https://www.acmicpc.net/problem/2447)                                 | 실버 I   | 재귀, 분할정복 |
+| ✅  | BOJ    | 1992  | [쿼드트리](https://www.acmicpc.net/problem/1992)                                      | 실버 I   | 재귀, 분할정복 |
+|    | 프로그래머스 | -     | [2 x n 타일링](https://school.programmers.co.kr/learn/courses/30/lessons/12900)      | 레벨 2   | 재귀, DP   |
+| ✅  | 프로그래머스 | -     | [K번째수](https://school.programmers.co.kr/learn/courses/30/lessons/42748)           | 레벨 1   | 정렬, 슬라이싱 |
+| ✅  | BOJ    | 2751  | [수 정렬하기 2](https://www.acmicpc.net/problem/2751)                                  | 실버 V   | 정렬       |
+|    | BOJ    | 1181  | [단어 정렬](https://www.acmicpc.net/problem/1181)                                     | 실버 V   | 정렬, 문자열  |
+| ✅  | 프로그래머스 | -     | [가장 큰 수](https://school.programmers.co.kr/learn/courses/30/lessons/42746)         | 레벨 2   | 정렬, 그리디  |
+| ✅  | BOJ    | 2108  | [통계학](https://www.acmicpc.net/problem/2108)                                       | 실버 III | 정렬, 구현   |
+| ✅  | 프로그래머스 | -     | [H-Index](https://school.programmers.co.kr/learn/courses/30/lessons/42747)        | 레벨 2   | 정렬       |
+|    | BOJ    | 10989 | [수 정렬하기 3](https://www.acmicpc.net/problem/10989)                                 | 실버 V   | 계수 정렬    |
+| ✅  | 프로그래머스 | -     | [정수 내림차순으로 배치하기](https://school.programmers.co.kr/learn/courses/30/lessons/12933) | 레벨 1   | 정렬, 문자열  |
+|    | BOJ    | 17478 | [재귀함수가 뭔가요?](https://www.acmicpc.net/problem/17478)                               | 실버 III | 재귀, 구현   |
