@@ -1,15 +1,15 @@
 /*
  * 링크: https://school.programmers.co.kr/learn/courses/30/lessons/42746
  * 레벨: Lv.2
- * 태그: 정렬
+ * 키워드: 정렬, 그리디
  * 문제 요약:
- *   - 정수 문자열을 이어붙였을 때 큰 쪽이 앞에 오도록 정렬
+ *   - 정수를 이어붙여 만들 수 있는 수 중 가장 큰 수를 문자열로 반환
+ *   - "이어붙였을 때 더 큰 조합"을 기준으로 정렬
  */
-
 import java.util.*;
 
 public class song_pgs_가장큰수 {
-    public static String solution(int[] numbers) {
+    private static String solution(int[] numbers) {
         // 숫자 배열을 문자열 배열로 변환
         String[] strNums = new String[numbers.length];
         for (int i = 0; i < numbers.length; i++) {
@@ -20,7 +20,7 @@ public class song_pgs_가장큰수 {
         // Arrays.sort(arr, (a, b) -> ...)
         // (a, b) -> 음수이면 a가 앞에 오고, 양수이면 b가 앞에 온다. 0이면 순서 유지
         // a.compareTo(b)
-        // 반환값이 음수이면 a < b, 0이면 a == b, 양수이면 a > b
+        // a < b이면 음수, a == b이면 0, a > b이면 양수를 반환
         Arrays.sort(strNums, (a, b) -> (b + a).compareTo(a + b));
 
         // 모든 수가 0인 경우 예외 처리
