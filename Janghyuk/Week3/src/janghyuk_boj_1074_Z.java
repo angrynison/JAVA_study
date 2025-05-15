@@ -7,13 +7,13 @@ public class Main {
 
         int half = (int)Math.pow(2, n - 1); // 2^n 의 절반
 
-        if (r < half && c < half) {
+        if (r < half && c < half) { // 왼쪽 위 1사분면
             return func(n - 1, r, c);
-        } else if (r < half && c >= half) {
+        } else if (r < half && c >= half) { // 오른쪽 위 2사분면
             return half * half + func(n - 1, r, c - half);
-        } else if (r >= half && c < half) {
+        } else if (r >= half && c < half) {  // 왼쪽 아래 3사분면
             return 2 * half * half + func(n - 1, r - half, c);
-        } else {
+        } else {  // 오른쪽 아래 4사분면
             return 3 * half * half + func(n - 1, r - half, c - half);
         }
     }
