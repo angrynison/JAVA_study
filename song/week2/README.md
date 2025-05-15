@@ -9,9 +9,9 @@
 | 추천 | 플랫폼    | 문제 번호 | 문제 제목(링크)                                                                         | 난이도   | 키워드      |
 |----|--------|-------|-----------------------------------------------------------------------------------|-------|----------|
 | ✅  | BOJ    | 10870 | [피보나치 수 5](https://www.acmicpc.net/problem/10870)                                 | 브론즈 Ⅱ | 재귀       |
-| ✅  | BOJ    | 11729 | [하노이 탑 이동 순서](https://www.acmicpc.net/problem/11729)                              | 실버 I  | 재귀, 분할정복 |
+| ✅  | BOJ    | 11729 | [하노이 탑 이동 순서](https://www.acmicpc.net/problem/11729)                              | 골드 Ⅴ  | 재귀, 분할정복 |
 |    | 프로그래머스 | -     | [재귀함수](https://school.programmers.co.kr/learn/courses/30/lessons/120845)          | Lv. 1 | 재귀, 문자열  |
-| ✅  | BOJ    | 2447  | [별 찍기 - 10](https://www.acmicpc.net/problem/2447)                                 | 실버 I  | 재귀, 분할정복 |
+| ✅  | BOJ    | 2447  | [별 찍기 - 10](https://www.acmicpc.net/problem/2447)                                 | 골드 Ⅴ  | 재귀, 분할정복 |
 | ✅  | BOJ    | 1992  | [쿼드트리](https://www.acmicpc.net/problem/1992)                                      | 실버 I  | 재귀, 분할정복 |
 |    | 프로그래머스 | -     | [2 x n 타일링](https://school.programmers.co.kr/learn/courses/30/lessons/12900)      | Lv. 2 | 재귀, DP   |
 | ✅  | 프로그래머스 | -     | [K번째수](https://school.programmers.co.kr/learn/courses/30/lessons/42748)           | Lv. 1 | 정렬, 슬라이싱 |
