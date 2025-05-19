@@ -1,6 +1,6 @@
 /*
  * 링크: https://school.programmers.co.kr/learn/courses/30/lessons/42746
- * 레벨: Lv.2
+ * 난이도: Lv.2
  * 키워드: 정렬, 그리디
  * 문제 요약:
  *   - 정수를 이어붙여 만들 수 있는 수 중 가장 큰 수를 문자열로 반환

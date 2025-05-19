@@ -8,7 +8,7 @@
 
 | 추천 | 플랫폼    | 문제 번호 | 문제 제목(링크)                                                                   | 난이도   | 키워드          |
 |----|--------|-------|-----------------------------------------------------------------------------|-------|--------------|
-| ✅  | BOJ    | 10828 | [스택](https://www.acmicpc.net/problem/10828)                                 | 브론즈 Ⅱ | 스택, 구현       |
+| ✅  | BOJ    | 10828 | [스택](https://www.acmicpc.net/problem/10828)                                 | 실버 Ⅳ | 스택, 구현       |
 | ✅  | BOJ    | 18258 | [큐 2](https://www.acmicpc.net/problem/18258)                                | 실버 Ⅳ  | 큐, 구현        |
 |    | BOJ    | 5430  | [AC](https://www.acmicpc.net/problem/5430)                                  | 골드 V  | 덱, 문자열 파싱    |
 | ✅  | 프로그래머스 | -     | [의상](https://school.programmers.co.kr/learn/courses/30/lessons/42578)       | Lv. 2 | 해시, 조합       |

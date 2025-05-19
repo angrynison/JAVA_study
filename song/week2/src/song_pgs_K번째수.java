@@ -1,6 +1,6 @@
 /*
  * 링크: https://school.programmers.co.kr/learn/courses/30/lessons/42748
- * 레벨: Lv.1
+ * 난이도: Lv.1
  * 태그: 정렬
  * 문제 요약:
  *   - 주어진 배열을 슬라이싱하고 정렬한 부분 배열에서 k번째 수 구하기
