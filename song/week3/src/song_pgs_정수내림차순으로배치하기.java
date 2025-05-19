@@ -1,6 +1,6 @@
 /*
  * 링크: https://school.programmers.co.kr/learn/courses/30/lessons/12933
- * 레벨: Lv.1
+ * 난이도: Lv.1
  * 키워드: 정렬, 문자열
  * 문제 요약:
  *   - 주어진 자연수의 각 자릿수를 큰 숫자부터 작은 숫자 순으로 정렬한 새로운 정수 반환
