@@ -18,6 +18,9 @@ public class JiHyeon_boj_1309_dim2 {
         int N = scanner.nextInt();
         int MOD = 9901;
 
+        // dp[i][s]는 i번째 줄까지 사자를 배치했을 때,
+        // i번째 줄의 상태가 s일 때 가능한 전체 배치의 수
+
         int[][] dp = new int[N+1][3];
         // 한 행에서 할 수 있는 경우에 0,1,2 로 태깅해준다.
         // 0 : 0-0 으로 사자배치 안함
