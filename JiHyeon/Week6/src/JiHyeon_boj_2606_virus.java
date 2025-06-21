@@ -15,6 +15,7 @@ public class JiHyeon_boj_2606_virus {
 
         graph = new ArrayList[N+1]; // 노드는 1부터 시작
         visited = new boolean[N+1];
+
         for(int i=1; i<=N; i++){
             graph[i] = new ArrayList<>(); // null으로 초기화
         }
